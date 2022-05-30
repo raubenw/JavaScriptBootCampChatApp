@@ -1,0 +1,30 @@
+{
+  "name": "javascriptbootcampchatapp",
+  "version": "1.0.0",
+  "description": "Creating my first socket IO application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raubenw/JavaScriptBootCampChatApp.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Socket",
+    "IO",
+    "Chat",
+    "App"
+  ],
+  "author": "Werner Raubenheimer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/raubenw/JavaScriptBootCampChatApp/issues"
+  },
+  "homepage": "https://github.com/raubenw/JavaScriptBootCampChatApp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
