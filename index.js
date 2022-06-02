@@ -23,3 +23,7 @@ app.get('/swift', (req, res) => {
 app.get('/python', (req, res) => {
     res.sendFile(__dirname + '/public/python.html');
 });
+
+io.on('connection', (socket) => {
+    console.log('A user connected');
+});
